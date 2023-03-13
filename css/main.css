@@ -31,9 +31,25 @@ a.navItem{
     padding-top: 5em;
 }
 
+.plansBox{
+    padding-top: 12em;
+}
+
 h1{
     font-size: 4.5em;
     font-weight: 800;
+}
+
+h2{
+    font-size: 2.5em;
+}
+
+input[name="fatturazione"]{
+    margin: 5em 0;
+}
+
+#annuale{
+    margin-left: 3em;
 }
 
 p{
