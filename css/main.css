@@ -52,6 +52,7 @@
 .col15 { width: 15%; }
 .col20 { width: 20%; } /* corrisponde a 1/5 */
 .col25 { width: 25%; } /* corrisponde a 1/4 */
+.col30 { width: 30%; }
 .col32 { width: 32%;}
 .col33 { width: calc(100% / 3); } /* corrisponde a 1/3 */
 .col50 { width: 50%; } /* corrisponde a 1/2 */
