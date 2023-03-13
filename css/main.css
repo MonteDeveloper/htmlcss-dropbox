@@ -17,9 +17,36 @@
     padding-top: 50%;
 }
 
+.navItem{
+    margin: 1.5em 1.2em;
+    font-size: 1em;
+}
+
+a.navItem{
+    color: black;
+    text-decoration: none;
+}
+
 /* ? IMAGES--------------------------------------- */
 
 /* ? BUTTONS-------------------------------------- */
+.blueButton{
+    color: white;
+    background-color: #0060fe;
+    border: none;
+    padding: .5em 1em;
+    transition: background-color .2s;
+}
+
+/* ? HOVER---------------------------------------- */
+a.navItem:hover{
+    text-decoration: underline;
+}
+
+.blueButton:hover{
+    background-color: #0061feb9;
+    cursor: pointer;
+}
 
 /* ? MARGIN & PADDING----------------------------- */
 /* padding */
