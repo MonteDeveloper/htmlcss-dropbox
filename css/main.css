@@ -12,6 +12,11 @@
     max-width: 1200px; 
 }
 
+.adaptiveSquareBox{
+    /* aspect-ratio : 1 / 1; non funziona su tutti i browser*/ 
+    padding-top: 50%;
+}
+
 /* ? IMAGES--------------------------------------- */
 
 /* ? BUTTONS-------------------------------------- */
@@ -68,7 +73,7 @@
 .tinyMinH{ min-height: 80px; }
 .smallMinH{ min-height: 120px; }
 .mediumMinH{ min-height: 250px; }
-.largeMinH{ min-height: 400px; }
+.largeMinH{ min-height: 450px; }
 .hugeMinH{ min-height: 600px; }
 
 /* ? BORDER--------------------------------------- */
