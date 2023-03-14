@@ -134,6 +134,10 @@ a.jumboItem{
 #agency2{ background-image: url("../img/arizona_state_university.svg"); background-color: #9ff6d4;}
 #agency3{ background-image: url("../img/university_of_florida.svg"); background-color: #ff6c31;}
 #agency4{ background-image: url("../img/topps.svg"); background-color: #00e3e3;}
+#agency5{ background-image: url("../img/world_bicycle_relief.svg"); background-color: #2bffb1;}
+#agency6{ background-image: url("../img/hearst_corp.svg"); background-color: #4a2f19;}
+#agency7{ background-image: url("../img/lonely_planet.svg"); background-color: #f3db7f;}
+#agency8{ background-image: url("../img/clear_channel.svg"); background-color: #0126cf;}
 
 .visibleOnHover{
     margin-top: -7rem;
