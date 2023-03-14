@@ -30,11 +30,6 @@ header{
     max-width: 1000px; 
 }
 
-.adaptiveSquareBox{
-    /* aspect-ratio : 1 / 1; non funziona su tutti i browser*/ 
-    padding-top: 50%;
-}
-
 .navItem{
     margin: 1.5em 1.2em;
     font-size: 1em;
@@ -60,9 +55,9 @@ a.navItem{
     padding: 2em;
 }
 
-.plansCard hr{
+hr{
     width: 20%;
-    border: 1px solid #ededed;
+    border: 1px solid gainsboro;
 }
 
 .titlePlansCard{
@@ -126,15 +121,37 @@ a.jumboItem{
     transition: color .2s;
 }
 
+.squareAgency{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
+    /* aspect-ratio : 1 / 1; non funziona su tutti i browser*/ 
+    padding-top: 50%;
+    filter: invert(100%);
+}
+
+#agency1{ background-image: url("../img/designit.svg"); background-color: #5c2c64; border: 15px solid #2f1732; padding-top: calc(50% - 30px)}
+#agency2{ background-image: url("../img/arizona_state_university.svg"); background-color: #9ff6d4;}
+#agency3{ background-image: url("../img/university_of_florida.svg"); background-color: #ff6c31;}
+#agency4{ background-image: url("../img/topps.svg"); background-color: #00e3e3;}
+
 /* ? IMAGES--------------------------------------- */
 img{
     width: 100%;
+}
+
+img[alt="logo"]{
+    width: auto;
 }
 
 img[alt="jumbo"]{
     position: absolute;
     top: 0;
     left: 0;
+}
+
+img[alt="agencySelected"]{
+    width: 50%;
 }
 
 /* ? BUTTONS-------------------------------------- */
@@ -191,7 +208,7 @@ button:hover, a:hover{
 .smallMarginLeft { margin-left: .5em; }
 .mediumRowMargin { margin-top: 2.5em; margin-bottom: 2.5em; }
 .mediumTopMargin { margin-top: 2.5em; }
-.mediumBotMargin { margin-bottom: 2.5em; }
+.mediumBotMargin { margin-bottom: 2.5rem; }
 .bigMarginLeft { margin-left: 5em; }
 .bigMarginRight { margin-right: 5em; }
 .bigTopMargin { margin-top: 5em;}
@@ -239,6 +256,7 @@ button:hover, a:hover{
 .mediumMinH{ min-height: 250px; }
 .largeMinH{ min-height: 450px; }
 .hugeMinH{ min-height: 600px; }
+.h100{ height: 100%;}
 
 /* ? BORDER--------------------------------------- */
 .bordSection{ border: black 2px dashed; }
@@ -251,7 +269,7 @@ button:hover, a:hover{
 .bgRed {background-color: #fe0100;}
 .bgPink {background-color: #ffc0cb;}
 .bgYellow {background-color: #ffff00;}
-.bgGrey {background-color: #222323;}
+.bgGrey {background-color: #f5f5f5;}
 .bgTeal {background-color: #008080;}
 .bgBrown {background-color: #a52a2a;}
 .bgWhite { background-color: white; }
@@ -271,3 +289,4 @@ button:hover, a:hover{
 .posRelative{ position: relative;}
 .italicText{ font-style: italic;}
 .marginReset{ margin: 0 !important;}
+.overflowAuto{ overflow-y:scroll;}
