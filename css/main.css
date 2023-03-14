@@ -172,6 +172,15 @@ img[alt="agencySelected"]{
     font-size: 1em;
 }
 
+.whiteButton{
+    color: rgba(0, 0, 0, 0.8);
+    background-color: white;
+    border: none;
+    padding: .5em 1em;
+    transition: border, color .2s;
+    font-size: 1em;
+}
+
 /* ? HOVER---------------------------------------- */
 a.navItem:hover{
     text-decoration: underline;
@@ -200,6 +209,7 @@ button:hover, a:hover{
 .smallRowPadding { padding-top: 1em; padding-bottom: 1em; }
 .mediumRowPadding { padding-top: 3em; padding-bottom: 3em; }
 .mediumPadding { padding: 3rem; }
+.hugeRowPadding { padding-top: 8rem; padding-bottom: 8rem; }
 /* margin */
 .smallRowMargin { margin-top: 1em; margin-bottom: 1em; }
 .smallBotMargin { margin-bottom: 1rem; }
@@ -214,6 +224,7 @@ button:hover, a:hover{
 .bigTopMargin { margin-top: 5em;}
 .bigRowMargin { margin-top: 5em; margin-bottom: 5em;}
 .hugeTopMargin { margin-top: 10rem; }
+.hugeRowMargin { margin-top: 10rem; margin-bottom: 10rem; }
 
 /* ? FLEX----------------------------------------- */
 .flexRow{ display: flex; flex-direction: row; }
@@ -284,6 +295,7 @@ button:hover, a:hover{
 .textColorWhite{ color: white; }
 .textColorBlue{ color: #0060fe; }
 .textColorGray{ color: gray; }
+.textColorClearblack { color: #60092b; }
 .textTiny{ font-size: .6em; }
 .overFlowY{ overflow-y: auto;}
 .posRelative{ position: relative;}
