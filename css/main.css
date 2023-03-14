@@ -8,6 +8,15 @@
 }
 
 /* * BOXES & MY CLASSES----------------------------- */
+header{
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: white;
+    z-index: 999;
+    border-bottom: 1px solid #ededed;
+}
+
 .centeredBox{ 
     margin: 0 auto; 
     max-width: 1000px; 
@@ -214,6 +223,7 @@ a.navItem:hover{
 .textColorGreen{ color: #4ac801; }
 .textColorWhite{ color: white; }
 .textColorBlue{ color: #0060fe; }
+.textColorGray{ color: gray; }
 .textTiny{ font-size: .6em; }
 .overFlowY{ overflow-y: auto;}
 .posRelative{ position: relative;}
