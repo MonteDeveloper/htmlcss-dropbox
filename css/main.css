@@ -96,6 +96,10 @@ h2{
     font-size: 2.5em;
 }
 
+h3{
+    font-size: 1.5em;
+}
+
 input[name="fatturazione"]{
     margin: 5em 0;
 }
@@ -122,13 +126,12 @@ a.jumboItem{
     transition: color .2s;
 }
 
-a.jumboItem:hover{
-    color: rgba(0, 0, 0, 0.5);
+/* ? IMAGES--------------------------------------- */
+img{
+    width: 100%;
 }
 
-/* ? IMAGES--------------------------------------- */
 img[alt="jumbo"]{
-    width: 100%;
     position: absolute;
     top: 0;
     left: 0;
@@ -143,6 +146,15 @@ img[alt="jumbo"]{
     transition: background-color .2s;
 }
 
+.transparentButton{
+    color: black;
+    background: none;
+    border: 1px solid black;
+    padding: .5em 1em;
+    transition: border, color .2s;
+    font-size: 1em;
+}
+
 /* ? HOVER---------------------------------------- */
 a.navItem:hover{
     text-decoration: underline;
@@ -150,7 +162,19 @@ a.navItem:hover{
 
 .blueButton:hover{
     background-color: #0061feb9;
+}
+
+a.jumboItem:hover{
+    color: rgba(0, 0, 0, 0.5);
+}
+
+button:hover, a:hover{
     cursor: pointer;
+}
+
+.transparentButton:hover{
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    color: rgba(0, 0, 0, 0.5);
 }
 
 /* ? MARGIN & PADDING----------------------------- */
@@ -158,6 +182,7 @@ a.navItem:hover{
 .smallTopPadding { padding-top: .6em; }
 .smallRowPadding { padding-top: 1em; padding-bottom: 1em; }
 .mediumRowPadding { padding-top: 3em; padding-bottom: 3em; }
+.mediumPadding { padding: 3rem; }
 /* margin */
 .smallRowMargin { margin-top: 1em; margin-bottom: 1em; }
 .smallBotMargin { margin-bottom: 1rem; }
@@ -170,6 +195,8 @@ a.navItem:hover{
 .bigMarginLeft { margin-left: 5em; }
 .bigMarginRight { margin-right: 5em; }
 .bigTopMargin { margin-top: 5em;}
+.bigRowMargin { margin-top: 5em; margin-bottom: 5em;}
+.hugeTopMargin { margin-top: 10rem; }
 
 /* ? FLEX----------------------------------------- */
 .flexRow{ display: flex; flex-direction: row; }
