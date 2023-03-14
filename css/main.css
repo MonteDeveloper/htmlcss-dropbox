@@ -30,6 +30,8 @@ a.navItem{
 
 .jumboBox{
     padding-top: 5em;
+    margin: 0 auto; 
+    max-width: 1200px; 
 }
 
 .plansBox{
@@ -70,7 +72,7 @@ a.navItem{
 }
 
 h1{
-    font-size: 4.5em;
+    font-size: 4.8em;
     font-weight: 800;
 }
 
