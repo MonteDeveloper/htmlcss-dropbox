@@ -55,7 +55,7 @@ a.navItem{
     padding: 2em;
 }
 
-hr{
+hr.smallHr{
     width: 20%;
     border: 1px solid gainsboro;
 }
@@ -135,6 +135,18 @@ a.jumboItem{
 #agency3{ background-image: url("../img/university_of_florida.svg"); background-color: #ff6c31;}
 #agency4{ background-image: url("../img/topps.svg"); background-color: #00e3e3;}
 
+.visibleOnHover{
+    margin-top: -7rem;
+    opacity: 0%;
+    transition: opacity, margin-top .2s;
+    z-index: -999;
+}
+
+.fa-chevron-down{
+    transform: rotate(180deg);
+    transition: transform .2s;
+}
+
 /* ? IMAGES--------------------------------------- */
 img{
     width: 100%;
@@ -177,7 +189,7 @@ img[alt="agencySelected"]{
     background-color: white;
     border: none;
     padding: .5em 1em;
-    transition: border, color .2s;
+    transition: border, color .5s;
     font-size: 1em;
 }
 
@@ -203,9 +215,19 @@ button:hover, a:hover{
     color: rgba(0, 0, 0, 0.5);
 }
 
+.question:hover + .visibleOnHover, .visibleOnHover:hover{
+    opacity: 100%;
+    margin-top: 0;
+}
+
+.question:hover > .fa-chevron-down{
+    transform: rotate(360deg);
+}
+
 /* ? MARGIN & PADDING----------------------------- */
 /* padding */
 .smallTopPadding { padding-top: .6em; }
+.smallPadding { padding: 1rem;}
 .smallRowPadding { padding-top: 1em; padding-bottom: 1em; }
 .mediumRowPadding { padding-top: 3em; padding-bottom: 3em; }
 .mediumPadding { padding: 3rem; }
@@ -219,6 +241,7 @@ button:hover, a:hover{
 .mediumRowMargin { margin-top: 2.5em; margin-bottom: 2.5em; }
 .mediumTopMargin { margin-top: 2.5em; }
 .mediumBotMargin { margin-bottom: 2.5rem; }
+.mediumMarginRight { margin-right: 2.5rem; }
 .bigMarginLeft { margin-left: 5em; }
 .bigMarginRight { margin-right: 5em; }
 .bigTopMargin { margin-top: 5em;}
@@ -302,3 +325,4 @@ button:hover, a:hover{
 .italicText{ font-style: italic;}
 .marginReset{ margin: 0 !important;}
 .overflowAuto{ overflow-y:scroll;}
+.resetAll{ all: initial; }
