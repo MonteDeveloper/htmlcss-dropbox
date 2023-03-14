@@ -119,6 +119,11 @@ a.jumboItem{
     margin: 1em 0 .3em 0;
     color: black;
     text-decoration: none;
+    transition: color .2s;
+}
+
+a.jumboItem:hover{
+    color: rgba(0, 0, 0, 0.5);
 }
 
 /* ? IMAGES--------------------------------------- */
@@ -160,6 +165,7 @@ a.navItem:hover{
 .smallMarginRight { margin-right: .5em; }
 .smallMarginLeft { margin-left: .5em; }
 .mediumRowMargin { margin-top: 2.5em; margin-bottom: 2.5em; }
+.mediumTopMargin { margin-top: 2.5em; }
 .mediumBotMargin { margin-bottom: 2.5em; }
 .bigMarginLeft { margin-left: 5em; }
 .bigMarginRight { margin-right: 5em; }
@@ -194,6 +200,7 @@ a.navItem:hover{
 .col60 { width: 60%; } /* corrisponde a 3/5 */
 .col66 { width: calc(100% / 3 * 2); } /* corrisponde a 2/3 */
 .col70 { width: 70%; }
+.col75 { width: 75%; }
 .col80 { width: 80%; }
 .col90 { width: 90%; }
 .col100 { width: 100%; }
@@ -236,3 +243,4 @@ a.navItem:hover{
 .overFlowY{ overflow-y: auto;}
 .posRelative{ position: relative;}
 .italicText{ font-style: italic;}
+.marginReset{ margin: 0 !important;}
