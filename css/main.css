@@ -303,6 +303,8 @@ button:hover, a:hover{
 .hugeMinH{ min-height: 600px; }
 .h100{ height: 100%;}
 
+.maxHeightEqualsToWidthDiv3{ max-height: calc(100vw / 3);}
+
 /* ? BORDER--------------------------------------- */
 .bordSection{ border: black 2px dashed; }
 
@@ -336,5 +338,5 @@ button:hover, a:hover{
 .posRelative{ position: relative;}
 .italicText{ font-style: italic;}
 .marginReset{ margin: 0 !important;}
-.overflowAuto{ overflow-y:scroll;}
+.overflowAuto{ overflow-y: auto;}
 .resetAll{ all: initial; }
