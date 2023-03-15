@@ -130,9 +130,9 @@ a.jumboItem{
     filter: invert(100%);
 }
 
-#agency1{ background-image: url("../../img/designit.svg"); background-color: #5c2c64; border: 15px solid #2f1732; padding-top: calc(50% - 30px)}
-#agency2{ background-image: url("../../img/arizona_state_university.svg"); background-color: #9ff6d4;}
-#agency3{ background-image: url("../../img/university_of_florida.svg"); background-color: #ff6c31;}
+#agency1{ background-image: url('../../img/designit.svg'); background-color: #5c2c64; border: 15px solid #2f1732; padding-top: calc(50% - 30px)}
+#agency2{ background-image: url("././img/arizona_state_university.svg"); background-color: #9ff6d4;}
+#agency3{ background-image: url('././img/university_of_florida.svg'); background-color: #ff6c31;}
 #agency4{ background-image: url("../../img/topps.svg"); background-color: #00e3e3;}
 #agency5{ background-image: url("../../img/world_bicycle_relief.svg"); background-color: #2bffb1;}
 #agency6{ background-image: url("../../img/hearst_corp.svg"); background-color: #4a2f19;}
