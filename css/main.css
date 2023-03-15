@@ -31,13 +31,14 @@ header{
 }
 
 .navItem{
-    margin: 1.5em 1.2em;
     font-size: 1em;
 }
 
 a.navItem{
     color: black;
     text-decoration: none;
+    padding: 1.8em 1.2em;
+    transition: background-color .2s;
 }
 
 .jumboBox, .footerBox{
@@ -163,6 +164,7 @@ img{
 
 img[alt="logo"]{
     width: auto;
+    margin: 0 1rem;
 }
 
 img[alt="jumbo"]{
@@ -182,6 +184,10 @@ img[alt="agencySelected"]{
     border: none;
     padding: .5em 1em;
     transition: background-color .2s;
+}
+
+.blueButton.navItem{
+    margin: 0 1rem;
 }
 
 .transparentButton{
@@ -205,6 +211,11 @@ img[alt="agencySelected"]{
 /* ? HOVER---------------------------------------- */
 a:hover{
     text-decoration: underline;
+}
+
+a.navItem:hover{
+    text-decoration: none;
+    background-color: #f2eee8;
 }
 
 .blueButton:hover{
@@ -243,6 +254,7 @@ button:hover, a:hover{
 .smallTopPadding { padding-top: .6em; }
 .smallPadding { padding: 1rem;}
 .smallRowPadding { padding-top: 1em; padding-bottom: 1em; }
+.smallColPadding { padding-right: 1em; padding-left: 1em; }
 .mediumRowPadding { padding-top: 3em; padding-bottom: 3em; }
 .mediumPadding { padding: 3rem; }
 .bigRowPadding { padding-top: 5rem; padding-bottom: 5rem; }
