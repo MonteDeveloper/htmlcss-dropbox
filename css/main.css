@@ -365,9 +365,9 @@ mobile: dai 480px in giù */
 
 
 @media screen and (max-width: 1100px){
-    header{
+    /* header{
         background-color: coral;
-    }
+    } */
 
     .centeredBox{
         width: 90%;
@@ -400,9 +400,9 @@ mobile: dai 480px in giù */
 }
 
 @media screen and (max-width: 768px){
-    header{
+    /* header{
         background-color: crimson;
-    }
+    } */
 
     a.navItem{
         display: none;
@@ -429,9 +429,9 @@ mobile: dai 480px in giù */
 }
 
 @media screen and (max-width: 480px){
-    header{
+    /* header{
         background-color: cadetblue;
-    }
+    } */
 
     .responsiveCol48{
         width: 100%;
