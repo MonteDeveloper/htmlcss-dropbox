@@ -445,7 +445,6 @@ mobile: dai 480px in giù */
     .jumboBox > div.mediumMinH{
         min-height: auto !important;
         margin-bottom: 1em;
-        background-color: red;
     }
 
     .jumboBox{
