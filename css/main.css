@@ -357,3 +357,98 @@ button:hover, a:hover{
 .marginReset{ margin: 0 !important;}
 .overflowAuto{ overflow-y: auto;}
 .resetAll{ all: initial; }
+
+/* RESPONSIVE------------------------------------- */
+
+/* tablet: dai 768px in giù
+mobile: dai 480px in giù */
+
+
+@media screen and (max-width: 1100px){
+    header{
+        background-color: coral;
+    }
+
+    .centeredBox{
+        width: 90%;
+    }
+
+    .jumboBox, .footerBox{
+        width: 95%;
+    }
+
+    .responsiveView{
+        display: none;
+    }
+
+    h1{
+        font-size: 3em;
+    }
+
+    .responsiveJumbo{
+        flex-direction: column-reverse;
+    }
+    
+    .responsiveJumbo > div > img{
+        position: static;
+        margin-bottom: 3em;
+    }
+
+    .responsiveCol100{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    header{
+        background-color: crimson;
+    }
+
+    a.navItem{
+        display: none;
+    }
+
+    nav{
+        padding: 1em 0;
+    }
+
+    .responsiveToColumn{
+        flex-direction: column;
+    }
+
+    .responsiveToColumn > div{
+        width: 100%;
+        margin-bottom: 2em;
+    }
+
+    .responsiveCol48{
+        width: 48%;
+    }
+
+
+}
+
+@media screen and (max-width: 480px){
+    header{
+        background-color: cadetblue;
+    }
+
+    .responsiveCol48{
+        width: 100%;
+    }
+
+    h1{
+        font-size: 2em;
+        margin-bottom: 0;
+    }
+
+    .jumboBox > div.mediumMinH{
+        min-height: auto !important;
+        margin-bottom: 1em;
+        background-color: red;
+    }
+
+    .jumboBox{
+        padding-top: 1em !important;
+    }
+}
